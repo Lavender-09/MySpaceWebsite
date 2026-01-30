@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rigel | To Infinity...</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="../planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="../planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="../planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="../planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="../planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="../moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="../moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="../moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="../moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="../moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News Feed</a>
+                    </li>
+                </ul>
+                
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <main class="container my-5">
+        
+        <!-- ===== PAGE HEADER ===== -->
+        <div class="row">
+            <div class="col-12">
+                <header class="text-center mb-5">
+                    <!-- SUN BADGE -->
+                    <h1 class="display-1 gradient-text">Rigel</h1>
+                    <span class="badge bg-danger text-light mb-3 fs-6">The Brightest Star</span>
+                </header>
+            </div>
+        </div>
+        
+        <!-- ===== QUICK FACTS CARD ===== -->
+        <div class="card bg-space-black border-danger mb-5"> <!-- Changed to light color -->
+            <div class="card-body">
+                <h2 class="card-title h3">🚀 Quick Facts</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Classification:</strong> Blue Supergiant</li>
+                            <li><strong>Constellation:</strong> Orion</li>
+                            <li><strong>Bayer Designation:</strong> Beta Orionis</li>
+                            <li><strong>Catalog ID:</strong> HIP 24436, HD 34085</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Distance from Earth:</strong>860 light years</li>
+                            <li><strong>Coordinates:</strong> RA 05h 14m 32s, Dec -08° 12′ 06″</li>
+                            <li><strong>Radial Velocity:</strong> +17.8 km/s (approaching)</li>
+                            <li><strong>Proper Motion:</strong> Small</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Galactic Location:</strong> Orion Arm</li>
+                            <li><strong>Companions:</strong> Triple star system (B and C are in close binary)</li>
+                            <li><strong>Exoplanets:</strong> None</li>
+                            <li><strong>Debris Disks:</strong> None known</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- ===== MAIN IMAGE ===== -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-space-black border-danger"> <!-- Changed to light color -->
+                    <img src="../images/Rigel.webp" 
+                         class="img-fluid rounded planet-main-image" 
+                         alt="Rigel">
+                    <div class="card-body">
+                        <p class="card-text">A picture of The Blue Supergiant Star Rigel</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ===== KEY INFORMATION ===== -->
+            <div class="col-lg-4 mb-4">
+                <div class="card bg-space-black border-danger h-100">
+                    <div class="card-body">
+                        <!-- NEW: Natural Satellite Definition -->
+                        <div class="mb-4">
+                            <h3 class="h5 text-danger">What is a Star?</h3>
+                            <p class="small">A star is a luminous celestial body that generates energy through nuclear fusion in its core.</p>
+                        </div>
+                        
+                        <h3 class="card-title h4">📌 Did You Know?</h3>
+                        <ul>
+                            <li>Most luminous star within 1,000 light-years</li>
+                            <li>Provides illumination for the Witch Head Nebula (IC 2118)</li>
+                            <li>Orion's "left foot" in constellation</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="h4">🔭 Observation</h3>
+                        <ul>
+                            <li><strong>Best time to view:</strong> December-February</li>
+                            <li><strong>Visibility:</strong> Very easy to the naked eye</li>
+                            <li><strong>Discovery:</strong> Known since antiquity, companions discovered telescopically</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="card-title h4">🔬 Scientific Data</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark">
+                                <tbody>
+                                    <tr><td><strong>Spectral Type & Colour:</strong> B8Ia (Blue Supergiant)</td></tr>
+                                    <tr><td><strong>Mass:</strong> 21 Solar Masses</td></tr>
+                                    <tr><td><strong>Radius:</strong> 78.9 Solar Radii</td></tr>
+                                    <tr><td><strong>Luminosity:</strong> 120,000 Solar Luminosities</td></tr>
+                                    <tr><td><strong>Absolute Magnitude:</strong> -7.84</td></tr>
+                                    <tr><td><strong>Apparent Magnitude:</strong> 0.13</td></tr>     
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== DETAILED SECTIONS ===== -->
+        <div class="row mt-4">
+            <!-- Section 1: Discovery & Classification -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-danger h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🔍 Discovery Story</h3>
+                        <ul>
+                            <li><strong>Discovery Date:</strong> Known since antiquity</li>
+                            <li><strong>Discoverer:</strong> Ancient human</li>
+                            <li><strong>Telescope:</strong> N/A</li>
+                            <li><strong>Name Origin:</strong> Comes from the Arabic word "Rijl Jauzah al Yusra" which means "Left Foot of the Giant"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section 2: Physical Characteristics -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-danger h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🪐 Characteristics</h3>
+                        <ul>
+                            <li><strong>Surface Temperature:</strong> 12,100K (11,827°C)</li>
+                            <li><strong>Stage:</strong> Blue Supergiant</li>
+                            <li><strong>Metallicity:</strong> Fe/H = 0.0 (solar-like)</li>
+                            <li><strong>Rotational Period:</strong> 2-8 days (fast rotating)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== EXPLORATION ===== -->
+        <div class="card bg-space-black border-danger mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">⁉️ Big Questions & Oddities</h3>
+                <ul>
+                    <li><strong>Habitable Zone:</strong> 350 AU from Rigel</li>
+                    <li><strong>Variable Star:</strong> Yes, slight irregular pulsations</li>
+                    <li><strong>Future Fate:</strong> Rigel will likely go supernova then evolve into a neutron star</li>
+                    <li><strong>Mysteries:</strong> The exact mass is uncertain due to binary companions</li>
+                    <li><strong>Magnetic Activity:</strong> Typical for blue supergiant</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- ===== COMPARISON WITH OTHER MAJOR STARS ===== -->
+        <div class="card bg-space-black border-danger mt-4">
+            <div class="card-body"> 
+                <h3 class="card-title h4">📊 Among Major Stars</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Star</th>
+                                <th>Mass</th>
+                                <th>Size Rank</th>
+                                <th>Diameter</th>
+                                <th>Special Feature</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Betelgeuse</th>
+                                <th>16-19 Solar Masses</th>
+                                <th>1st - Largest</th>
+                                <th>887-955 Solar Diameters</th>
+                                <th>Red Supergiant, future supernova</th>
+                            </tr>
+                            <tr>
+                                <th>Rigel</th>
+                                <th>21-30 Solar Masses</th>
+                                <th>2nd </th>
+                                <th>70-80 Solar Diameters</th>
+                                <th>Most luminous star within 1,000 ly</th>
+                            </tr>
+                            <tr>
+                                <th>Polestar (Polaris)</th>
+                                <th>5.4 Solar Masses</th>
+                                <th>3rd</th>
+                                <th>37.5 Solar Diameters</th>
+                                <th>Our current North Star</th>
+                            </tr>
+                            <tr>
+                                <th>Vega</th>
+                                <th>2.135 Solar Masses</th>
+                                <th>4th</th>
+                                <th>2.362 Solar Diameters</th>
+                                <th>Brightest in Lyra, fast rotation</th>
+                            </tr>
+                            <tr>
+                                <th>Sirius A</th>
+                                <th>2.02 Solar Masses</th>
+                                <th>5th</th>
+                                <th>1.71 Solar Diameters</th>
+                                <th>Brightest night star from Earth</th>
+                            </tr>
+                            <tr>
+                                <th>Sun</th>
+                                <th>1 Solar Mass</th>
+                                <th>6th</th>
+                                <th>1.0 Solar Diameter</th>
+                                <th>Our Star, source of energy for Earth</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== TRIVIA/QUIZ ===== -->
+        <div class="card bg-space-black border-secondary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🧠 Quick Quiz</h3>
+                <div class="quiz">
+                    <p><strong>Q:</strong> How does Rigel compare to our Sun in energy output?</p>
+                    <button class="btn btn-outline-primary quiz-toggle">Reveal Answer</button>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                            <p class="mb-0"><strong>A:</strong> Rigel is about 120,000 times more luminous than our Sun — it's a blue supergiant star that burns its fuel much faster!</p>
+                    </div>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> Oceans cover 71% of the surface — and our atmosphere scatters blue light more than other colors!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== RELATED CONTENT ===== -->
+        <div class="mt-5">
+            <h3 class="h4 mb-3">🔗 Explore Related Content</h3>
+            <div class="row">
+                <!-- Previous Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="star/betelgeuse.html" 
+                       class="card bg-space-black border-danger text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-left fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Previous]</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Next Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="star/polestar.html" 
+                       class="card bg-space-black border-danger text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-right fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Next]</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+     <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../script.js"></script>  
+</body>
+</html>

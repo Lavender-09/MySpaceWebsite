@@ -1,0 +1,331 @@
+/* Custom Properties */
+:root {
+    --dark-blue: #0a0e17;
+    --primary-blue: #006680;
+    --accent-yellow: #fff39a;
+    --star-blue: #00ffff;
+    --star-gold: #ffd700;
+}
+
+/* Background and Body */
+body {
+    background: url('/images/starrynight.jpeg') center/cover fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 14, 23, 0.9);
+    z-index: -1;
+}
+
+/* Custom Background Colors */
+.bg-dark-blue {
+    background-color: var(--dark-blue) !important;
+}
+
+.bg-purple {
+    background-color: #9c36ff !important;
+}
+
+.btn-purple {
+    background-color: #9c36ff;
+    border-color: #9c36ff;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #8a2ce2;
+    border-color: #8a2ce2;
+}
+
+.border-purple {
+    border-color: #9c36ff !important;
+}
+
+/* Navigation Customization */
+.navbar-dark .nav-link {
+    color: var(--accent-yellow);
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+    color: white;
+}
+
+/* Dropdown Customization */
+.dropdown-menu {
+    background-color: var(--dark-blue);
+    border: 1px solid var(--primary-blue);
+    z-index: 1080;
+}
+
+.dropdown-item {
+    color: var(--accent-yellow);
+}
+
+.dropdown-item:link {
+    color: var(--accent-yellow);
+}
+
+.dropdown-item:visited {
+    color: var(--accent-yellow);
+}
+
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item:focus {
+    background-color: var(--primary-blue);
+    color: var(--star-blue);
+}
+
+.dropdown-item:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem #0d6efd40;
+}
+
+/* Bootstrap 5 Nested Dropdown - Critical Fix */
+.dropdown-menu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -0.5rem;
+    margin-left: 0.125rem;
+    display: none;
+}
+
+/* Show submenu on hover (desktop) */
+@media (min-width: 992px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+    
+    .dropend:hover > .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+}
+
+/* Custom arrow for dropdowns with submenus */
+.dropdown-toggle.dropdown-item::after {
+    content: "";
+    border-top: 0.3em solid transparent;
+    border-right: 0;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.3em solid;
+    float: right;
+    margin-top: 0.5em;
+}
+
+/* Mobile Dropdown */
+@media (max-width: 991.98px) {
+    .dropdown:hover > .dropdown-menu,
+    .dropend:hover > .dropdown-menu {
+        display: none !important;
+    }   
+    .dropdown-menu.show {
+        display: block !important;
+    }    
+    .dropdown-menu .dropdown-menu {
+        position: static !important;
+        float: none !important;
+        margin: 5px 0 5px 15px !important;
+        border-left: 2px solid var(--primary-blue) !important;
+        box-shadow: none !important;
+    }
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 102, 128, 0.3);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Badge Styling */
+.badge {
+    font-size: 0.85em;
+    padding: 0.4em 0.8em;
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(90deg, var(--star-blue), var(--star-gold));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    animation: pulse 4s infinite;
+}
+
+/* Border Colors for Different Card Types */
+.planet-card {
+    border-color: #0d6efd !important;
+}
+
+.dwarf-planet-card {
+    border-color: #ffc107 !important;
+}
+
+.moon-card {
+    border-color: #f8f9fa !important;
+}
+
+.star-card {
+    border-color: #dc3545 !important;
+}
+
+.galaxy-card {
+    border-color: #720b9b !important;
+}
+
+.black-hole-card {
+    border-color: #06118d !important;
+}
+
+/* Background Colors */
+.bg-primary { background-color: #0d6efd !important; }
+.bg-warning { background-color: #ffc107 !important; }
+.bg-light { background-color: #f8f9fa !important; }
+.bg-danger { background-color: #dc3545 !important; }
+.bg-info { background-color: #720b9b !important; }
+.bg-secondary { background-color: #06118d !important; }
+
+/* Text Colors */
+.text-primary { color: #0d6efd !important; }
+.text-warning { color: #ffc107 !important; }
+.text-light { color: #f8f9fa !important; }
+.text-danger { color: #dc3545 !important; }
+.text-info { color: #720b9b !important; }
+.text-secondary { color: #06118d !important; }
+
+/* Border Colors */
+.border-primary { border-color: #0d6efd !important; }
+.border-warning { border-color: #ffc107 !important; }
+.border-light { border-color: #f8f9fa !important; }
+.border-danger { border-color: #dc3545 !important; }
+.border-info { border-color: #720b9b !important; }
+.border-secondary { border-color: #06118d !important; }
+
+/* Form Control Customization */
+.form-control:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 0.25rem rgba(0, 102, 128, 0.25);
+}
+
+/* Animations */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.planet-main-image {
+    max-height: 800px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-text-img {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+    
+    .gradient-text {
+        font-size: 2.5rem !important;
+    }
+    
+    .card .btn {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    
+    .card-body .col-md-4 {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    
+    .card-body .col-md-4:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 1rem;
+    }
+}
+
+/* Responsive planet image */
+.planet-main-image {
+    max-height: 400px !important; 
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .planet-main-image {
+        max-height: 500px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .planet-main-image {
+        max-height: 600px !important;
+    }
+}
+/* Calculator Styling */
+.calculator-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.calculator-display input {
+    height: 70px;
+    font-family: 'Courier New', monospace;
+    border: 2px solid var(--primary-blue);
+}
+
+.calculator-buttons button {
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Mobile calculator */
+@media (max-width: 576px) {
+    .calculator-buttons button {
+        height: 50px;
+        font-size: 1rem;
+    }
+    
+    .calculator-display input {
+        height: 60px;
+        font-size: 1.5rem !important;
+    }
+}

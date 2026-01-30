@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Moon | To Infinity...</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="../planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="../planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="../planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="../planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="../planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News Feed</a>
+                    </li>
+                </ul>
+                
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <main class="container my-5">
+        
+        <!-- ===== PAGE HEADER ===== -->
+        <div class="row">
+            <div class="col-12">
+                <header class="text-center mb-5">
+                    <!-- MOON BADGE -->
+                    <h1 class="display-1 gradient-text">The Moon</h1>
+                    <span class="badge bg-light text-dark mb-3 fs-6">The Night Light</span>
+                </header>
+            </div>
+        </div>
+        
+        <!-- ===== QUICK FACTS CARD ===== -->
+        <div class="card bg-space-black border-light mb-5"> <!-- Changed to light color -->
+            <div class="card-body">
+                <h2 class="card-title h3">🚀 Quick Facts</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Classification:</strong> Natural Satellite</li>
+                            <li><strong>Planet:</strong> Earth</li>
+                            <li><strong>Diameter:</strong> 3,474 km</li>
+                            <li><strong>Mass:</strong> 7.342 × 10²² kg</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Orbit Period:</strong> 27.3 Earth days</li>
+                            <li><strong>Day Length:</strong> 29.5 Earth days</li>
+                            <li><strong>Distance from Planet:</strong> 384,400 km</li>
+                            <li><strong>Orbital Eccentricity:</strong> 0.0549</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Group/Cluster:</strong> None</li>
+                            <li><strong>Discovery:</strong> Known since antiquity</li>
+                            <li><strong>Tidal Lock:</strong> Yes</li>
+                            <li><strong>Observation Difficulty:</strong> None</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- ===== MAIN IMAGE ===== -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-space-black border-light"> <!-- Changed to light color -->
+                    <img src="../images/themoon.jpg" 
+                         class="img-fluid rounded planet-main-image" 
+                         alt="The Moon">
+                    <div class="card-body">
+                        <p class="card-text">A Picture of The Moon from Space</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ===== KEY INFORMATION ===== -->
+            <div class="col-lg-4 mb-4">
+                <div class="card bg-space-black border-light h-100">
+                    <div class="card-body">
+                        <!-- NEW: Natural Satellite Definition -->
+                        <div class="mb-4">
+                            <h3 class="h5 text-light">What is a Natural Satellite?</h3>
+                            <p class="small">A natural satellite is a celestial body that orbits a planet or another larger body in space.</p>
+                        </div>
+                        
+                        <h3 class="card-title h4">📌 Did You Know?</h3>
+                        <ul>
+                            <li>A full moon occurs once every 29.5 days and a Blue Moon (the second full moon in a calendar month) occurs once every 2.5 years</li>
+                            <li>A yellow moon is a phenomenon where the moon appears yellow due to atmospheric conditions</li>
+                            <li>Earth's moon is the second densest satellite, the first being Io (Jupiter's moon)</li>
+                            <li>The moon is in a synchronous rotation with Earth, meaning it always shows the same face to Earth</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="h4">🔭 Observation</h3>
+                        <ul>
+                            <li><strong>Best time to view:</strong> At night</li>
+                            <li><strong>Visibility:</strong> Yes (though it requires clear skies)</li>
+                            <li><strong>Brightness:</strong> Depending on the phase, it can range from -12.6 (full moon) to -2.5 (new moon)</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="card-title h4">🔬 Scientific Data</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark">
+                                <tbody>
+                                    <tr><td><strong>Axial Tilt</strong></td><td>1.54°</td></tr>
+                                    <tr><td><strong>Gravity</strong></td><td>1.62 m/s²</td></tr>
+                                    <tr><td><strong>Surface Temperature</strong></td><td>-130°C to 120°C - Extreme due to a lack of atmosphere</td></tr>
+                                    <tr><td><strong>Surface Composition</strong></td><td>Silicate rocks and minerals</td></tr>
+                                    <tr><td><strong>Albedo</strong></td><td>0.12 (dim)</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== DETAILED SECTIONS ===== -->
+        <div class="row mt-4">
+            <!-- Section 1: Discovery & Classification -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-light h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🔍 Discovery Story</h3>
+                        <ul>
+                            <li><strong>Discovery Date:</strong> Known since antiquity</li>
+                            <li><strong>Discoverer:</strong> Ancient human</li>
+                            <li><strong>Telescope:</strong> None</li>
+                            <li><strong>Name Origin:</strong> The term "moon" is derived from the Old English word "mōna", which means "to measure", and gave us words such as "month"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section 2: Physical Characteristics -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-light h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🪐 Characteristics</h3>
+                        <ul>
+                            <li><strong>Surface:</strong> Silicate rocks and minerals</li>
+                            <li><strong>Atmosphere:</strong> None</li>
+                            <li><strong>Special Features:</strong> Dark plains, bright highlands, cratering and polar ice</li>
+                            <li><strong>Subsurface oceans:</strong> Yes</li>
+                            <li><strong>Volcanic Activity:</strong> No significant volcanic activity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NEW: Dwarf Planet vs Planet Comparison -->
+        <div class="card bg-space-black border-light mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">⚖️ Natural Satellite vs Planet</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Criteria</th>
+                                <th>Planet (Earth)</th>
+                                <th>Moon (Earth's Moon)</th>
+                                <th>Difference</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Orbits</strong></td>
+                                <td class="text-success">✅ The Sun</td>
+                                <td>A planet (Earth)</td>
+                                <td>Primary vs. secondary body</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Size</strong></td>
+                                <td>12,742 km</td>
+                                <td>3,474 km</td>
+                                <td>3.67 times smaller</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Atmosphere</strong></td>
+                                <td class="text-success">✅ Thick</td>
+                                <td class="text-warning">⚠️ Essentially no atmosphere</td>
+                                <td>Significant difference in atmospheric conditions</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Self-Clearing Orbit</strong></td>
+                                <td class="text-success">✅ Yes (Planet status)</td>
+                                <td class="text-warning">⚠️ No (Satellite status)</td>
+                                <td>IAU Definition</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== EXPLORATION ===== -->
+        <div class="card bg-space-black border-light mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🛰️ Exploration</h3>
+                <ul>
+                    <li><strong>First Image:</strong> March 1840, John William Draper</li>
+                    <li><strong>First Image From the Moon:</strong>August 1966, NASA Lunar Orbiter 1 </li>
+                    <li><strong>First Flyby:</strong> USSR Luna 1 (1959)</li>
+                    <li><strong>First Landing:</strong> Apollo 11 (1969)</li>
+                    <li><strong>Current Studies:</strong> Focused on future human habitation</li>
+                    <li><strong>Future Missions:</strong> Artemis II flyby (2026), Artemis III lunar landing (mid-2027) and Gateway lunar orbiting station (long term)</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- ===== COMPARISON WITH OTHER MAJOR MOONS ===== -->
+        <div class="card bg-space-black border-light mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">📊 Among Major Moons</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Moon</th>
+                                <th>Parent Planet</th>
+                                <th>Size Rank</th>
+                                <th>Diameter</th>
+                                <th>Special Feature</th>
+                                <th>Discovery Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Ganymede (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#1 Largest</td>
+                                <td>5,268 km</td>
+                                <td>Own magnetic field</td>
+                                <td>1610</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Titan (Saturn)</strong></td>
+                                <td>Saturn</td>
+                                <td>#2</td>
+                                <td>5,149 km</td>
+                                <td>Thick atmosphere, lakes</td>
+                                <td>1655</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Callisto (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#3</td>
+                                <td>4,821 km</td>
+                                <td>Heavily cratered</td>
+                                <td>1610</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Io (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#4</td>
+                                <td>3,643 km</td>
+                                <td>Most volcanic body</td>
+                                <td>1610</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Moon (Earth)</strong></td>
+                                <td>Earth</td>
+                                <td>#5</td>
+                                <td>3,475 km</td>
+                                <td>Only moon with humans</td>
+                                <td>Antiquity</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Europa (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#6</td>
+                                <td>3,122 km</td>
+                                <td>Subsurface ocean</td>
+                                <td>1610</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== TRIVIA/QUIZ ===== -->
+        <div class="card bg-space-black border-secondary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🧠 Quick Quiz</h3>
+                <div class="quiz">
+                    <p><strong>Q:</strong> Why do we only see one side of the Moon?</p>
+                    <button class="btn btn-outline-primary quiz-toggle">Reveal Answer</button>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                            <p class="mb-0"><strong>A:</strong> The Moon is tidally locked to Earth, meaning it rotates at the same rate it orbits, so we always see the same side.</p>
+                    </div>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> It hosts ~2,000 globular clusters — about 10× more than the Milky Way — possibly from past galaxy mergers!</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <!-- ===== RELATED CONTENT ===== -->
+        <div class="mt-5">
+            <h3 class="h4 mb-3">🔗 Explore Related Content</h3>
+            <div class="row">
+                <!-- Previous Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="../dwarf-planet/ceres.html" 
+                       class="card bg-space-black border-light text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-left fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Previous]</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Next Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="moon/europa.html" 
+                       class="card bg-space-black border-light text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-right fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Next]</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+     <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../script.js"></script>  
+</body>
+</html>

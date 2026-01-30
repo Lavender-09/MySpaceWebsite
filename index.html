@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Infinity... | Space Exploration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="../planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="../planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="../planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="../planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="../planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="../moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="../moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="../moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="../moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="../moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News Feed</a>
+                    </li>
+                </ul>              
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <!-- Login Button -->
+                <div class="text-center mt-4">
+                    <a href="login.html" class="btn btn-primary btn-sm">
+                        <i class="bi bi-rocket-takeoff"></i> Login
+                    </a>
+                </div>                 
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <h1 class="text-center mb-4 gradient-text">Explore the Cosmos</h1>      
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <!-- Earth Card -->
+            <div class="col">
+                <div class="card h-100 bg-dark-blue border-primary planet-card">
+                    <img src="../images/earth.jpg" class="card-img-top img-fluid" alt="Earth from space">
+                    <div class="card-body">
+                        <div class="badge bg-primary mb-2">Planets</div>
+                        <h3 class="card-title">Earth</h3>
+                        <div class="card-text">
+                            <p>
+                                Planets are large celestial bodies orbiting a star, 
+                                and have enough gravity to make them almost perfectly round and have cleared their orbital path of other debris.
+                                The Greek philosopher Ptolemy first coined the term "planet" in the 2nd century AD,
+                                meaning "wanderer", as they appeared to move across the sky differently from stars.
+                            </p>
+                            <p>
+                                Our home planet, Earth, is  third from the Sun, 
+                                and rests on a razor's edge of habitability that makes life possible                        
+                            </p>
+                        </div>
+                        <a href="../planet/earth.html" class="btn btn-primary">Explore Earth</a>
+                    </div>
+                </div>
+            </div>           
+
+            <!-- Pluto Card -->
+            <div class="col">
+                <div class="card h-100 bg-dark-blue border-warning dwarf-planet-card">
+                    <img src="..../images/pluto.jpg" class="card-img-top img-fluid" alt="Pluto from space">
+                    <div class="card-body">
+                        <div class="badge bg-warning text-dark mb-2">Dwarf Planets</div>
+                        <h3 class="card-title">Pluto</h3>
+                        <div class="card-text">
+                            <p>
+                                Dwarf planets are celestial bodies that orbit the Sun and have enough mass to assume a nearly round shape,
+                                but have not cleared their orbital path of other debris. The term "dwarf planet"
+                                was coined by astronomer Alan Stern in 1991 and was officially adopted by the International Astronomical Union in 2006.
+                            </p>
+                            <p>
+                                Pluto is a dwarf planet in the Kuiper belt, a ring of icy bodies beyond Neptune.
+                                It was discovered in 1930 by Clyde Tombaugh and was classified as the ninth planet
+                                until 2006 when the International Astronomical Union reclassified it as a dwarf planet.
+                            </p>
+                        </div>
+                        <a href="../dwarf-planet/pluto.html" class="btn btn-warning">Explore Pluto</a>
+                    </div>
+                </div>
+            </div>           
+
+            <!-- The Moon Card -->
+            <div class="col">
+                <div class="card h-100 bg-dark-blue border-light moon-card">
+                    <img src="..../images/themoon.jpg" class="card-img-top img-fluid" alt="The Moon from space">
+                    <div class="card-body">
+                        <div class="badge bg-light text-dark mb-2">Moons</div>
+                        <h3 class="card-title">The Moon</h3>
+                        <div class="card-text">
+                            <p>
+                                Moons, also known as natural satellites, are celestial bodies that orbit planets or dwarf planets.
+                                The term "moon" is derived from the Old English word "mōna", which means "to measure", and gave us words such as "month".
+                                Moons can vary greatly in size, composition, and geological activity.
+                            </p>
+                            <p>
+                                The Moon is Earth's only natural satellite and the fifth largest moon in the solar system.
+                                It is about one-quarter the diameter of Earth and is located approximately 384,400 kilometers away.
+                                The Moon's gravitational influence is responsible for tides on Earth.
+                            </p>
+                        </div>
+                        <a href="../moon/moon.html" class="btn btn-light">Explore the Moon</a>
+                    </div>
+                </div>
+            </div>           
+
+            <!-- The Sun Card -->
+            <div class="col">
+                <div class="card h-100 bg-dark-blue border-danger star-card">
+                    <img src="..../images/thesun.jpg" class="card-img-top img-fluid" alt="The Sun from space">
+                    <div class="card-body">
+                        <div class="badge bg-danger mb-2">Stars</div>
+                        <h3 class="card-title">The Sun</h3>
+                        <div class="card-text">
+                            <p>
+                                Stars are massive, luminous spheres of plasma (hot gas, mostly hydrogen and helium) 
+                                held together by gravity. The English word "star" comes from the Indo-European root "h₂stḗr-,"
+                                which means "to burn" or "to shine."
+                            </p>
+                            <p>
+                                The nearest star to Earth is the Sun, which is the source of most of the energy 
+                                in our solar system. It is a nearly perfect sphere of hot plasma,
+                                with internal convective motion that generates a magnetic field via a dynamo process.
+                            </p>
+                        </div>
+                        <a href="../star/sun.html" class="btn btn-danger">Explore the Sun</a>
+                    </div>
+                </div>
+            </div>           
+
+            <!-- Milky Way Card -->
+            <div class="col">
+                <div class="card h-100 bg-dark-blue border-purple galaxy-card">
+                    <img src="..../images/milkyway.jpg" class="card-img-top img-fluid" alt="The Milky Way from space">
+                    <div class="card-body">
+                        <div class="badge bg-purple mb-2">Galaxies</div>
+                        <h3 class="card-title">The Milky Way</h3>
+                        <div class="card-text">
+                            <p>
+                                Galaxies are vast collections of stars, gas, dust, and dark matter that are held together by gravity.
+                                The term "galaxy" comes from the Greek word "galaxias," which means "milky circle," referring to the appearance of our own galaxy,
+                                the Milky Way, as a milky band of light in the night sky.
+                            </p>
+                            <p>
+                                The Milky Way is a barred spiral galaxy that contains our solar system.
+                                It is estimated to be about 100,000 light-years in diameter and contains between 100 and 400 billion stars.
+                                The Milky Way is part of a group of galaxies known as the Local Group, 
+                                which also includes the Andromeda Galaxy and the Triangulum Galaxy.  
+                            </p>
+                        </div>
+                        <a href="../galaxy/milky-way.html" class="btn btn-purple">Explore Milky Way</a>
+                    </div>
+                </div>
+            </div>          
+
+            <!-- Sagittarius A* Card -->
+            <div class="col">
+                <div class="card h-100 bg-dark-blue border-dark black-hole-card">
+                    <img src="../images/sagittariusA.jpg" class="card-img-top img-fluid" alt="Sagittarius A* from space">
+                    <div class="card-body">
+                        <div class="badge bg-dark mb-2">Black Holes</div>
+                        <h3 class="card-title">Sagittarius A*</h3>
+                        <div class="card-text">
+                            <p>
+                                Black holes are regions of spacetime where gravity is so strong that nothing, not even light, can escape from them.
+                                The term "black hole" was coined by physicist John Archibald Wheeler in 1967, replacing older terms such as "frozen star" and 
+                                "dark star". Black holes are formed when massive stars collapse under their own gravity at the end of their life cycles.
+                            </p>
+                            <p>
+                                Sagittarius A* (pronounced "Sagittarius A-star") is a supermassive black hole located at the center of our Milky Way galaxy.
+                                It has a mass of about 4 million times that of our Sun and is located approximately 26,000 light-years from Earth.
+                                The name "Sagittarius A*" comes from its location in the constellation Sagittarius and the asterisk (*) indicates that it is a compact radio source.                     
+                            </p>
+                        </div>
+                        <a href="../black-hole/sagittarius-a.html" class="btn btn-dark">Explore Sagittarius A*</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+            <ul>
+                <li><a href="calculator.html" class="text-light">Try our Space Calculator!</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

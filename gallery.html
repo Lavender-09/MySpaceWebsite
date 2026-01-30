@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Infinity... | Space Exploration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="../planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="../planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="../planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="../planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="../planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="../moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="../moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="../moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="../moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="../moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News Feed</a>
+                    </li>
+                </ul>              
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>                
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="display-4 gradient-text">Cosmic Gallery</h1>
+            <p class="lead">A visual journey through our solar system and beyond</p>
+        </div>
+        
+        <!-- Gallery Grid -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            
+            <!-- Planets -->
+                         <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/mercury.html">
+                        <img src="../images/mercury.jpg" class="card-img-top gallery-img" alt="Mercury">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Mercury's Surface</h6>
+                        <p class="card-text small">Closest planet to the Sun with extreme temperature variations.</p>
+                        <a href="../planet/mercury.html" class="btn btn-sm btn-outline-light w-100">Visit Mercury</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/venus.html">
+                        <img src="../images/venus.jpg" class="card-img-top gallery-img" alt="Venus">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Venus' Surface</h6>
+                        <p class="card-text small">Second planet from the Sun with a thick atmosphere.</p>
+                        <a href="../planet/venus.html" class="btn btn-sm btn-outline-light w-100">Visit Venus</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/earth.html">
+                        <img src="../images/earth.jpg" class="card-img-top gallery-img" alt="Earth">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Earth's Surface</h6>
+                        <p class="card-text small">Our home planet with diverse ecosystems and life.</p>
+                        <a href="../planet/earth.html" class="btn btn-sm btn-outline-light w-100">Visit Earth</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/mars.html">
+                        <img src="../images/mars.png" class="card-img-top gallery-img" alt="Mars">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Mars' Surface</h6>
+                        <p class="card-text small">The Red Planet with polar ice caps and Olympus Mons.</p>
+                        <a href="../planet/mars.html" class="btn btn-sm btn-outline-light w-100">Visit Mars</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/jupiter.html">
+                        <img src="../images/jupiter.jpg" class="card-img-top gallery-img" alt="Jupiter">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Jupiter's Storms</h6>
+                        <p class="card-text small">Largest planet with Great Red Spot.</p>
+                        <a href="../planet/jupiter.html" class="btn btn-sm btn-outline-light w-100">Visit Jupiter</a>
+                    </div>
+                </div>
+            </div>            
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/saturn.html">
+                        <img src="../images/saturn.jpg" class="card-img-top gallery-img" alt="Saturn">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Saturn's Rings</h6>
+                        <p class="card-text small">Iconic ring system of ice and dust.</p>
+                        <a href="../planet/saturn.html" class="btn btn-sm btn-outline-light w-100">Visit Saturn</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/uranus.html">
+                        <img src="../images/uranus.jpg" class="card-img-top gallery-img" alt="Uranus">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Uranus' Atmosphere</h6>
+                        <p class="card-text small">Ice giant with a unique tilted axis.</p>
+                        <a href="../planet/uranus.html" class="btn btn-sm btn-outline-light w-100">Visit Uranus</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../planet/neptune.html">
+                        <img src="../images/neptune.jpg" class="card-img-top gallery-img" alt="Neptune">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Neptune's Winds</h6>
+                        <p class="card-text small">The windiest planet in our solar system.</p>
+                        <a href="../planet/neptune.html" class="btn btn-sm btn-outline-light w-100">Visit Neptune</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dwarf Planets -->
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../dwarf-planet/pluto.html">
+                        <img src="../images/pluto.jpg" class="card-img-top gallery-img" alt="Pluto from New Horizons">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Pluto's Heart</h6>
+                        <p class="card-text small">New Horizons flyby revealed Tombaugh Regio.</p>
+                        <a href="../dwarf-planet/pluto.html" class="btn btn-sm btn-outline-light w-100">Visit Pluto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../dwarf-planet/eris.html">
+                        <img src="../images/eris.jpg" class="card-img-top gallery-img" alt="Eris from New Horizons">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Eris' Surface</h6>
+                        <p class="card-text small">New Horizons flyby revealed Eris' surface features.</p>
+                        <a href="../dwarf-planet/eris.html" class="btn btn-sm btn-outline-light w-100">Visit Eris</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../dwarf-planet/haumea.html">
+                        <img src="../images/haumea.jpeg" class="card-img-top gallery-img" alt="Haumea from New Horizons">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Haumea's Surface</h6>
+                        <p class="card-text small">New Horizons flyby revealed Haumea's surface features.</p>
+                        <a href="../dwarf-planet/haumea.html" class="btn btn-sm btn-outline-light w-100">Visit Haumea</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../dwarf-planet/makemake.html">
+                        <img src="../images/makemake.jpg" class="card-img-top gallery-img" alt="Makemake from New Horizons">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Makemake's Surface</h6>
+                        <p class="card-text small">New Horizons flyby revealed Makemake's surface features.</p>
+                        <a href="../dwarf-planet/makemake.html" class="btn btn-sm btn-outline-light w-100">Visit Makemake</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../dwarf-planet/ceres.html">
+                        <img src="../images/ceres.jpg" class="card-img-top gallery-img" alt="Ceres from New Horizons">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Ceres' Surface</h6>
+                        <p class="card-text small">New Horizons flyby revealed Ceres' surface features.</p>
+                        <a href="../dwarf-planet/ceres.html" class="btn btn-sm btn-outline-light w-100">Visit Ceres</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Moons -->
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../moon/moon.html">
+                        <img src="../images/themoon.jpg" class="card-img-top gallery-img" alt="Earth's Moon">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Earth's Moon</h6>
+                        <p class="card-text small">Our closest celestial neighbor.</p>
+                        <a href="../moon/moon.html" class="btn btn-sm btn-outline-light w-100">Visit The Moon</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../moon/europa.html">
+                        <img src="../images/europa.jpeg" class="card-img-top gallery-img" alt="Europa">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Europa</h6>
+                        <p class="card-text small">A moon of Jupiter with a subsurface ocean.</p>
+                        <a href="../moon/europa.html" class="btn btn-sm btn-outline-light w-100">Visit Europa</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../moon/ganymede.html">
+                        <img src="../images/ganymede.jpg" class="card-img-top gallery-img" alt="Ganymede">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Ganymede</h6>
+                        <p class="card-text small">The largest moon of Jupiter.</p>
+                        <a href="../moon/ganymede.html" class="btn btn-sm btn-outline-light w-100">Visit Ganymede</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../moon/callisto.html">
+                        <img src="../images/callisto.png" class="card-img-top gallery-img" alt="Callisto">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Callisto</h6>
+                        <p class="card-text small">A moon of Jupiter with a heavily cratered surface.</p>
+                        <a href="../moon/callisto.html" class="btn btn-sm btn-outline-light w-100">Visit Callisto</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../moon/titan.html">
+                        <img src="../images/titan.webp" class="card-img-top gallery-img" alt="Titan">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Titan</h6>
+                        <p class="card-text small">A moon of Saturn with a thick atmosphere.</p>
+                        <a href="../moon/titan.html" class="btn btn-sm btn-outline-light w-100">Visit Titan</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../moon/io.html">
+                        <img src="../images/io.jpg" class="card-img-top gallery-img" alt="Io">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Io</h6>
+                        <p class="card-text small">A moon of Jupiter with active volcanoes.</p>
+                        <a href="../moon/io.html" class="btn btn-sm btn-outline-light w-100">Visit Io</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stars -->
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../star/sun.html">
+                        <img src="../images/thesun.jpg" class="card-img-top gallery-img" alt="The Sun">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Solar Flares</h6>
+                        <p class="card-text small">Our star in extreme ultraviolet.</p>
+                        <a href="../star/sun.html" class="btn btn-sm btn-outline-light w-100">Visit The Sun</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../star/sirius.html">
+                        <img src="../images/siriusanb.jpg" class="card-img-top gallery-img" alt="Sirius">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Sirius</h6>
+                        <p class="card-text small">The brightest star in the night sky.</p>
+                        <a href="../star/sirius.html" class="btn btn-sm btn-outline-light w-100">Visit Sirius</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../star/betelgeuse.html">
+                        <img src="../images/betelgeuse.jpg" class="card-img-top gallery-img" alt="Betelgeuse">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Betelgeuse</h6>
+                        <p class="card-text small">A red supergiant star in the constellation Orion.</p>
+                        <a href="../star/betelgeuse.html" class="btn btn-sm btn-outline-light w-100">Visit Betelgeuse</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../star/polestar.html">
+                        <img src="../images/polestar.jpg" class="card-img-top gallery-img" alt="Pole Star">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Pole Star</h6>
+                        <p class="card-text small">The North Star, a stable reference point in the night sky.</p>
+                        <a href="../star/polestar.html" class="btn btn-sm btn-outline-light w-100">Visit Pole Star</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../star/rigel.html">
+                        <img src="../images/Rigel.webp" class="card-img-top gallery-img" alt="Rigel">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Rigel</h6>
+                        <p class="card-text small">The brightest star in the constellation Orion.</p>
+                        <a href="../star/rigel.html" class="btn btn-sm btn-outline-light w-100">Visit Rigel</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../star/vega.html">
+                        <img src="../images/vega.jpg" class="card-img-top gallery-img" alt="Vega">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Vega</h6>
+                        <p class="card-text small">The brightest star in the constellation Lyra.</p>
+                        <a href="../star/vega.html" class="btn btn-sm btn-outline-light w-100">Visit Vega</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galaxies -->
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../galaxy/milky-way.html">
+                        <img src="../images/milkyway.jpg" class="card-img-top gallery-img" alt="Milky Way">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Milky Way</h6>
+                        <p class="card-text small">Our home galaxy's central region.</p>
+                        <a href="../galaxy/milky-way.html" class="btn btn-sm btn-outline-light w-100">Visit Milky Way</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../galaxy/andromeda.html">
+                        <img src="../images/andromeda.jpeg" class="card-img-top gallery-img" alt="Andromeda Galaxy">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Andromeda Galaxy</h6>
+                        <p class="card-text small">Our galactic neighbor, heading for collision.</p>
+                        <a href="../galaxy/andromeda.html" class="btn btn-sm btn-outline-light w-100">Visit Andromeda</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../galaxy/triangulum.html">
+                        <img src="../images/triangulum.webp" class="card-img-top gallery-img" alt="Triangulum Galaxy">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Triangulum Galaxy</h6>
+                        <p class="card-text small">The third-largest galaxy in the Local Group.</p>
+                        <a href="../galaxy/triangulum.html" class="btn btn-sm btn-outline-light w-100">Visit Triangulum</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../galaxy/whirlpool.html">
+                        <img src="../images/whirlpool.webp" class="card-img-top gallery-img" alt="Whirlpool Galaxy">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Whirlpool Galaxy</h6>
+                        <p class="card-text small">A classic spiral galaxy in the constellation Canes Venatici.</p>
+                        <a href="../galaxy/whirlpool.html" class="btn btn-sm btn-outline-light w-100">Visit Whirlpool</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../galaxy/sombrero.html">
+                        <img src="../images/sombrero.jpeg" class="card-img-top gallery-img" alt="Sombrero Galaxy">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Sombrero Galaxy</h6>
+                        <p class="card-text small">A spiral galaxy in the constellation Virgo.</p>
+                        <a href="../galaxy/sombrero.html" class="btn btn-sm btn-outline-light w-100">Visit Sombrero</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Black Holes -->
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../black-hole/sagittarius-a.html">
+                        <img src="../images/sagittariusA.jpg" class="card-img-top gallery-img" alt="Sagittarius A Black Hole">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">First Black Hole Image</h6>
+                        <p class="card-text small">Sagittarius A* captured by Event Horizon Telescope.</p>
+                        <a href="../black-hole/sagittarius-a.html" class="btn btn-sm btn-outline-light w-100">Visit Sagittarius A*</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../black-hole/m87.html">
+                        <img src="../images/m87.jpg" class="card-img-top gallery-img" alt="M87 Black Hole">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">First Black Hole Image</h6>
+                        <p class="card-text small">M87* captured by Event Horizon Telescope.</p>
+                        <a href="../black-hole/m87.html" class="btn btn-sm btn-outline-light w-100">Visit M87*</a>
+                    </div>
+                </div>
+            </div>            
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../black-hole/cygnus-x1.html">
+                        <img src="../images/cygnusx1.jpeg" class="card-img-top gallery-img" alt="Cygnus X-1 Black Hole">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Cygnus X-1</h6>
+                        <p class="card-text small">The first black hole discovered in the Milky Way.</p>
+                        <a href="../black-hole/cygnus-x1.html" class="btn btn-sm btn-outline-light w-100">Visit Cygnus X-1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../black-hole/ton618.html">
+                        <img src="../images/ton-618.jpg" class="card-img-top gallery-img" alt="TON 618 Black Hole">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">TON 618</h6>
+                        <p class="card-text small">The most massive known black hole in the universe.</p>
+                        <a href="../black-hole/ton618.html" class="btn btn-sm btn-outline-light w-100">Visit TON 618</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-space-black border-light h-100">
+                    <a href="../black-hole/ngc-1277.html">
+                        <img src="../images/ngc1277.jpg" class="card-img-top gallery-img" alt="NGC 1277 Black Hole">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">NGC 1277</h6>
+                        <p class="card-text small">A supermassive black hole in a dwarf galaxy.</p>
+                        <a href="../black-hole/ngc-1277.html" class="btn btn-sm btn-outline-light w-100">Visit NGC 1277</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Back to Home -->
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-outline-light">
+                <i class="bi bi-arrow-left"></i> Back to Mission Control
+            </a>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+            <ul>
+                <li><a href="calculator.html" class="text-light">Try our Space Calculator!</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>    

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Io | To Infinity...</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="../planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="../planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="../planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="../planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="../planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News Feed</a>
+                    </li>
+                </ul>
+                
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <main class="container my-5">
+        
+        <!-- ===== PAGE HEADER ===== -->
+        <div class="row">
+            <div class="col-12">
+                <header class="text-center mb-5">
+                    <!-- MOON BADGE -->
+                    <h1 class="display-1 gradient-text">Io</h1>
+                    <span class="badge bg-light text-dark mb-3 fs-6">The Volcano Moon</span>
+                </header>
+            </div>
+        </div>
+        
+        <!-- ===== QUICK FACTS CARD ===== -->
+        <div class="card bg-space-black border-light mb-5"> <!-- Changed to light color -->
+            <div class="card-body">
+                <h2 class="card-title h3">🚀 Quick Facts</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Classification:</strong> Natural Satellite</li>
+                            <li><strong>Planet:</strong> Jupiter</li>
+                            <li><strong>Diameter:</strong> 3643.2 km</li>
+                            <li><strong>Mass:</strong> 8.93 × 10<sup>22</sup> kg</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Orbit Period:</strong> 42 Earth hours</li>
+                            <li><strong>Day Length:</strong> 42 Earth hours</li>
+                            <li><strong>Distance from Planet:</strong> 421,700 km</li>
+                            <li><strong>Orbital Eccentricity:</strong> 0.0041</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Group/Cluster:</strong> Galilean</li>
+                            <li><strong>Discovery:</strong> 1610, Galileo Galilea</li>
+                            <li><strong>Tidal Lock:</strong> Yes</li>
+                            <li><strong>Observation Difficulty:</strong> Its proximity to Jupiter means that it is obscured by Jupiter's brightness</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- ===== MAIN IMAGE ===== -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-space-black border-light"> <!-- Changed to light color -->
+                    <img src="../images/io.jpg" 
+                         class="img-fluid rounded planet-main-image" 
+                         alt="Io">
+                    <div class="card-body">
+                        <p class="card-text">A Picture of Io from Space</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ===== KEY INFORMATION ===== -->
+            <div class="col-lg-4 mb-4">
+                <div class="card bg-space-black border-light h-100">
+                    <div class="card-body">
+                        <!-- NEW: Natural Satellite Definition -->
+                        <div class="mb-4">
+                            <h3 class="h5 text-light">What is a Natural Satellite?</h3>
+                            <p class="small">A natural satellite is a celestial body that orbits a planet or another larger body in space.</p>
+                        </div>
+                        
+                        <h3 class="card-title h4">📌 Did You Know?</h3>
+                        <ul>
+                            <li>Io is the most volcanically active body in the solar system</li>
+                            <li>Some of its volcanoes are higher than Mt Everest</li>
+                            <li>Tidal heating from Jupiter causes its interior to melt</li>
+                            <li>The object with the lowest water content in the solar system</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="h4">🔭 Observation</h3>
+                        <ul>
+                            <li><strong>Best time to view:</strong> During Jupiter's opposition at midnight. Check for moon transits happening in the night sky</li>
+                            <li><strong>Visibility:</strong> Small telescope or steady binoculars are all that are needed</li>
+                            <li><strong>Brightness:</strong> 4.6-5.7 magnitude</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="card-title h4">🔬 Scientific Data</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark">
+                                <tbody>
+                                    <tr><td><strong>Axial Tilt</strong></td><td>less than 1°</td></tr>
+                                    <tr><td><strong>Gravity</strong></td><td>1.796 m/s²</td></tr>
+                                    <tr><td><strong>Surface Temperature</strong></td><td>-130°C to 1,649°C (extreme temperatures due to volcanic activity)</td></tr>
+                                    <tr><td><strong>Surface Composition</strong></td><td>Made of sulfur and sulfur dioxide frosts</td></tr>
+                                    <tr><td><strong>Albedo</strong></td><td>0.63 (bright)</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== DETAILED SECTIONS ===== -->
+        <div class="row mt-4">
+            <!-- Section 1: Discovery & Classification -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-light h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🔍 Discovery Story</h3>
+                        <ul>
+                            <li><strong>Discovery Date:</strong> January 8th, 1610</li>
+                            <li><strong>Discoverer:</strong> Galileo Galilei</li>
+                            <li><strong>Telescope:</strong> Self-built 20x telescope</li>
+                            <li><strong>Name Origin:</strong> Named after an Argive Princess from Greek mythology who was turned into a white cow</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section 2: Physical Characteristics -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-light h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🪐 Characteristics</h3>
+                        <ul>
+                            <li><strong>Surface:</strong> Made of sulfur and sulfur dioxide frosts</li>
+                            <li><strong>Atmosphere:</strong> Very thin, composed of sulfur dioxide</li>
+                            <li><strong>Special Features:</strong> Hundreds of active volcanoes, sulfur lakes and lava flows</li>
+                            <li><strong>Subsurface oceans:</strong> No</li>
+                            <li><strong>Volcanic Activity:</strong> Yes, very heavy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NEW: Dwarf Planet vs Planet Comparison -->
+        <div class="card bg-space-black border-light mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">⚖️ Natural Satellite vs Planet</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Criteria</th>
+                                <th>Planet (Earth)</th>
+                                <th>Moon (Io)</th>
+                                <th>Difference</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Orbits</strong></td>
+                                <td class="text-success">✅ The Sun</td>
+                                <td>A planet (Jupiter)</td>
+                                <td>Primary vs. secondary body</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Size</strong></td>
+                                <td>12,742 km</td>
+                                <td>3,642 km</td>
+                                <td>3.5 times smaller</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Atmosphere</strong></td>
+                                <td class="text-success">✅ Thick</td>
+                                <td class="text-warning">⚠️ Very thin</td>
+                                <td>Significant difference in atmospheric conditions</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Self-Clearing Orbit</strong></td>
+                                <td class="text-success">✅ Yes (Planet status)</td>
+                                <td class="text-warning">⚠️ No (Satellite status)</td>
+                                <td>IAU Definition</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== EXPLORATION ===== -->
+        <div class="card bg-space-black border-light mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🛰️ Exploration</h3>
+                <ul>
+                    <li><strong>First Image:</strong> Voyager 1 (1979)</li>
+                    <li><strong>First Flyby:</strong> Pioneer 10 (1973)</li>
+                    <li><strong>Current Studies:</strong> Juno Spacecraft</li>
+                    <li><strong>Future Missions:</strong> None so far</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- ===== COMPARISON WITH OTHER MAJOR MOONS ===== -->
+        <div class="card bg-space-black border-light mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">📊 Among Major Moons</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Moon</th>
+                                <th>Parent Planet</th>
+                                <th>Size Rank</th>
+                                <th>Diameter</th>
+                                <th>Special Feature</th>
+                                <th>Discovery Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Ganymede (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#1 Largest</td>
+                                <td>5,268 km</td>
+                                <td>Own magnetic field</td>
+                                <td>1610</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Titan (Saturn)</strong></td>
+                                <td>Saturn</td>
+                                <td>#2</td>
+                                <td>5,149 km</td>
+                                <td>Thick atmosphere, lakes</td>
+                                <td>1655</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Callisto (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#3</td>
+                                <td>4,821 km</td>
+                                <td>Heavily cratered</td>
+                                <td>1610</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Io (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#4</td>
+                                <td>3,643 km</td>
+                                <td>Most volcanic body</td>
+                                <td>1610</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Moon (Earth)</strong></td>
+                                <td>Earth</td>
+                                <td>#5</td>
+                                <td>3,475 km</td>
+                                <td>Only moon with humans</td>
+                                <td>Antiquity</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Europa (Jupiter)</strong></td>
+                                <td>Jupiter</td>
+                                <td>#6</td>
+                                <td>3,122 km</td>
+                                <td>Subsurface ocean</td>
+                                <td>1610</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== TRIVIA/QUIZ ===== -->
+        <div class="card bg-space-black border-secondary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🧠 Quick Quiz</h3>
+                <div class="quiz">
+                    <p><strong>Q:</strong> What makes Io the most volcanic place in the solar system?</p>
+                    <button class="btn btn-outline-primary quiz-toggle">Reveal Answer</button>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                            <p class="mb-0"><strong>A:</strong> Tidal heating from Jupiter's gravity squeezes and stretches it, creating 400+ active volcanoes that constantly resurface it!</p>
+                    </div>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> It hosts ~2,000 globular clusters — about 10× more than the Milky Way — possibly from past galaxy mergers!</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+        <!-- ===== RELATED CONTENT ===== -->
+        <div class="mt-5">
+            <h3 class="h4 mb-3">🔗 Explore Related Content</h3>
+            <div class="row">
+                <!-- Previous Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="moon/titan.html" 
+                       class="card bg-space-black border-light text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-left fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Previous]</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Next Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="../star/sun.html" 
+                       class="card bg-space-black border-light text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-right fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Next]</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+     <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../script.js"></script>  
+</body>
+</html>

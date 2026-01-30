@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars | To Infinity... | Space Exploration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="../moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="../moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="../moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="../moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="../moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News Feed</a>
+                    </li>
+                </ul>
+                
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+
+    <!-- Main Content -->
+
+    <main class="container my-5">
+            <div class="row">
+        <div class="col-12">
+            <header class="text-center mb-5">
+                <h1 class="display-1 gradient-text"> Mars</h1>
+                <span class="badge bg-primary text-light mb-3 fs-6">The Red Planet</span>
+            </header>
+        </div>
+    </div>               
+                <!-- ===== QUICK FACTS CARD ===== -->
+        <div class="card bg-space-black border-primary mb-5">
+            <div class="card-body">
+                <h2 class="card-title h3">🚀 Quick Facts</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Type:</strong> Terrestrial Planet</li>
+                            <li><strong>Diameter:</strong> 6,779 km</li>
+                            <li><strong>Mass:</strong> 6.39 × 10²³ kg</li>
+                            <li><strong>Orbit Period:</strong> 687 Earth days</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Day Length:</strong> 24.6 Earth hours</li>
+                            <li><strong>Temperature:</strong> -63 °C avg</li>
+                            <li><strong>Moons:</strong> Two (Phobos and Deimos)</li>
+                            <li><strong>Discoverer:</strong> Known since antiquity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- ===== MAIN IMAGE ===== -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-space-black border-primary">
+                <img src="../images/mars.png" class="img-fluid rounded planet-main-image" alt="Venus">                    
+                <div class="card-body">
+                        <p class="card-text-img">NASA's Hubble Sees Martian Moon Orbiting the Red Planet</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ===== KEY INFORMATION ===== -->
+            <div class="col-lg-4 mb-4">
+                <div class="card bg-space-black border-primary h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">📌 Did You Know?</h3>
+                            <ul>
+                                <li>Although it's year is much longer than Earth's (687 Earth days), its day is almost the same at 24.6 Earth hours</li>
+                                <li>Mars's moons are small and irregular and may be captured asteroids</li>
+                                <li>Home to our solar system's largest volcano, Olympus Mons</li>
+                                <li>It's named after the Roman god of war</li>
+                            </ul>       
+                                        <hr class="border-secondary my-4">                 
+                        <h3 class="h4 mt-4">🔭 Observation Tips</h3>
+                        <ul>
+                            <li>Best time to view: At its opposition, which occurs roughly every 27 months</li>
+                            <li>Visible to naked eye: Yes</li>
+                            <li>Brightness: -2.94 to 1.8 magnitude</li>
+                        </ul>
+                                    <hr class="border-secondary my-4">
+                         <h3 class="card-title h4">🔬 Scientific Data</h3>        
+        <div class="table-responsive">
+            <table class="table table-sm table-dark">
+                <tbody>
+                    <tr>
+                        <td><strong>Escape Velocity</strong></td>
+                        <td>5.03 km/s</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Albedo</strong></td>
+                        <td>0.25, though it can vary wildly due to surface conditions</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Axial Tilt</strong></td>
+                        <td>25.2°</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Orbital Speed</strong></td>
+                        <td>24.1 km/s</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gravity</strong></td>
+                        <td>3.71 m/s²</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Magnetic Field</strong></td>
+                        <td>Has no global magnetic field but some areas are locally magnetized, reaching up to several thousands of nT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== DETAILED SECTIONS ===== -->
+        <div class="row mt-4">
+            <!-- Section 1: Characteristics -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-primary h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🪐 Characteristics</h3>
+                        <p>Venus is a small, rocky planet with a very thick atmosphere and very hot surface due to the greenhouse effect.</p>
+                        <ul>
+                            <li><strong>Atmosphere:</strong> Thin atmosphere made up of mostly carbon dioxide, nitrogen and argon gases</li>
+                            <li><strong>Surface:</strong> Rocky, dusty, iron-rich</li>
+                            <li><strong>Color:</strong> Mostly red due to iron oxide (rust) on the surface</li>
+                            <li><strong>Special Features:</strong> Inactive volcanoes, large canyon systems, Polar ice caps and salty water</li>
+                            <li><strong>Moons:</strong> Two (Phobos and Deimos)</li>
+                            <li><strong>Core Composition:</strong> Iron and nickel rich, making up about 25% of the planet's mass</li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section 2: Exploration -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-primary h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🛰️ Exploration</h3>
+                        <p>[Missions that visited this planet]</p>
+                        <ul>
+                            <li><strong>First Flyby:</strong> Mariner 4 (1965)</li>
+                            <li><strong>First Lander:</strong> Viking 1 (1976)</li>
+                            <li><strong>Current Rovers:</strong> Perseverance (since 2021) and Curiosity (since 2012)</li>
+                            <li><strong>Current Orbiters:</strong> MRO NASA (since 2006), Mars Odyssey NASA (since 2001), Mars Express ESA (since 2003), MAVEN NASA (since 2014), TGO ESA (since 2016), Hope UAESA (since 2021) and Tianwen-1 CNSA (since 2021)</li>
+                            <li><strong>Future Missions:</strong> Focusing on human exploration and sample return missions including: NASA’s Mars Sample Return (launching NET 2027), SpaceX’s crewed Starship flights planned for 2026/2030s, India’s Mangalyaan-2 (2030), and ESA’s ExoMars rover (2028)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== COMPARISON TABLE ===== -->
+        <div class="card bg-space-black border-primary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">📊 How Mars Compares</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Mars</th>
+                                <th>Earth</th>
+                                <th>Comparison</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Size</td>
+                                <td>6,779 km</td>
+                                <td>12,742 km</td>
+                                <td>Around half the size</td>
+                            </tr>
+                            <tr>
+                                <td>Gravity</td>
+                                <td>3.72 m/s²</td>
+                                <td>9.81 m/s²</td>
+                                <td>38% of Earth's</td>
+                            </tr>
+                            <tr>
+                                <td>Magnetic Field</td>
+                                <td>No global field</td>
+                                <td>~50,000 nT</td>
+                                <td>N/A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== TRIVIA/QUIZ ===== -->
+        <div class="card bg-space-black border-secondary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🧠 Quick Quiz</h3>
+                <div class="quiz">
+                    <p><strong>Q:</strong> Why is Mars called the "Red Planet"?</p>
+                    <button class="btn btn-outline-primary quiz-toggle">Reveal Answer</button>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                            <p class="mb-0"><strong>A:</strong> Iron oxide (rust) in its soil and dust gives it a distinctive reddish hue visible even from Earth!</p>
+                    </div>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> Oceans cover 71% of the surface — and our atmosphere scatters blue light more than other colors!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===== RELATED CONTENT ===== -->
+        <div class="mt-5">
+            <h3 class="h4 mb-3">🔗 Explore Related Content</h3>
+            <div class="row">
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="planet/earth.html" class="card bg-space-black border-primary text-decoration-none">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-left fs-1"></i>
+                            <p class="mb-0">&lt; Previous Planet</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="planet/jupiter.html" class="card bg-space-black border-primary text-decoration-none">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-right fs-1"></i>
+                            <p class="mb-0">Next Planet &gt;</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../script.js"></script>
+</body>
+</html>

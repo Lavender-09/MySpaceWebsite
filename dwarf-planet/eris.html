@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eris | To Infinity...</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="../planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="../planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="../planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="../planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="../planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="../moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="../moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="../moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="../moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="../moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News Feed</a>
+                    </li>
+                </ul>
+                
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <main class="container my-5">
+        
+        <!-- ===== PAGE HEADER ===== -->
+        <div class="row">
+            <div class="col-12">
+                <header class="text-center mb-5">
+                    <!-- DWARF PLANET BADGE -->
+                    <h1 class="display-1 gradient-text">Eris</h1>
+                    <span class="badge bg-warning text-dark mb-3 fs-6">The Tenth Planet</span>
+                </header>
+            </div>
+        </div>
+        
+        <!-- ===== QUICK FACTS CARD ===== -->
+        <div class="card bg-space-black border-warning mb-5"> <!-- Changed to warning color -->
+            <div class="card-body">
+                <h2 class="card-title h3">🚀 Quick Facts</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Classification:</strong> Dwarf Planet</li>
+                            <li><strong>Location:</strong> Scattered Disc</li>
+                            <li><strong>Diameter:</strong> 2,326 km</li>
+                            <li><strong>Mass:</strong> 1.67 × 10²² kg</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Orbit Period:</strong> 557 Earth years</li>
+                            <li><strong>Day Length:</strong> 25.9 Earth hours</li>
+                            <li><strong>Moons:</strong> 1 (Dysnomia)</li>
+                            <li><strong>Discoverer:</strong> 2005 by Mike Brown, Chad Trujillo and David Rabinowitz</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- ===== MAIN IMAGE ===== -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-space-black border-warning">
+                    <img src="../images/eris.jpg" 
+                         class="img-fluid rounded planet-main-image" 
+                         alt="Eris">
+                    <div class="card-body">
+                        <p class="card-text">A Picture of Eris and Dysmonia</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ===== KEY INFORMATION ===== -->
+            <div class="col-lg-4 mb-4">
+                <div class="card bg-space-black border-warning h-100">
+                    <div class="card-body">
+                        <!-- NEW: Dwarf Planet Definition -->
+                        <div class="mb-4">
+                            <h3 class="h5 text-warning">What is a Dwarf Planet?</h3>
+                            <p class="small">A dwarf planet orbits the Sun, is round, but hasn't cleared its orbit of other debris.</p>
+                        </div>
+                        
+                        <h3 class="card-title h4">📌 Did You Know?</h3>
+                        <ul>
+                            <li>Originally thought to be larger than Pluto, Eris was initially classified as the '10th Planet'</li>
+                            <li>Named after the Roman goddess of discord and strife after its discovery led to much debate on the definition of a planet</li>
+                            <li>It is around 3 times further from the Sun than Pluto</li>
+                            <li>Although considered a dwarf planet, Eris is smaller than Earth's moon</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="h4">🔭 Observation</h3>
+                        <ul>
+                            <li><strong>Best time to view:</strong> During its annual opposition around mid to late October, at around midnight</li>
+                            <li><strong>Telescope needed:</strong> Yes</li>
+                            <li><strong>Brightness:</strong> 18.7 - 19 magnitude</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="card-title h4">🔬 Scientific Data</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark">
+                                <tbody>
+                                    <tr><td><strong>Orbital Eccentricity</strong></td><td>0.43</td></tr>
+                                    <tr><td><strong>Axial Tilt</strong></td><td>78°</td></tr>
+                                    <tr><td><strong>Gravity</strong></td><td>0.82 m/s²</td></tr>
+                                    <tr><td><strong>Surface Temperature</strong></td><td>-217°C to -243°C</td></tr>
+                                    <tr><td><strong>Surface Composition</strong></td><td>Ice, rock, and other frozen compounds</td></tr>
+                                    <tr><td><strong>Albedo</strong></td><td>0.96 (bright)</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== DETAILED SECTIONS ===== -->
+        <div class="row mt-4">
+            <!-- Section 1: Discovery & Classification -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-warning h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🔍 Discovery Story</h3>
+                        <ul>
+                            <li><strong>Discovery Date:</strong> January 5th, 2005</li>
+                            <li><strong>Discoverer:</strong> Mike Brown, Chad Trujillo and David Rabinowitz</li>
+                            <li><strong>Telescope:</strong> Palomar 48" Schmidt telescope</li>
+                            <li><strong>Classification Debate:</strong> After being identified in 2005, it caused a re-evaluation of the definition of a planet and led to the creation of the category "dwarf planet"</li>
+                            <li><strong>Name Origin:</strong> Named after the Roman god of discord</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section 2: Physical Characteristics -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-warning h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🪐 Characteristics</h3>
+                        <ul>
+                            <li><strong>Surface:</strong> Ice, rock, and other frozen compounds</li>
+                            <li><strong>Atmosphere:</strong> Transient and extremely thin made of methane and nitrogen</li>
+                            <li><strong>Special Features:</strong> Highly reflective surface, very uniform and frozen atmospher</li>
+                            <li><strong>Moons:</strong> Dysmonia</li>
+                            <li><strong>Ring System:</strong> No ring system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NEW: Dwarf Planet vs Planet Comparison -->
+        <div class="card bg-space-black border-warning mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">⚖️ Dwarf Planet vs Planet</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Criteria</th>
+                                <th>Planet (Earth)</th>
+                                <th>Dwarf Planet (Eris)</th>
+                                <th>Difference</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Orbit Clearing</strong></td>
+                                <td class="text-success">✅ Has cleared orbit</td>
+                                <td class="text-warning">⚠️ Shares orbit with debris</td>
+                                <td>Key distinction</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Size</strong></td>
+                                <td>12,742 km</td>
+                                <td>2,326 km</td>
+                                <td>5.5 times smaller</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Location</strong></td>
+                                <td>Inner Solar System</td>
+                                <td>Scattered Disc</td>
+                                <td>Different region</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== EXPLORATION ===== -->
+        <div class="card bg-space-black border-warning mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🛰️ Exploration</h3>
+                <ul>
+                    <li><strong>First Image:</strong> Hubble Space Telescope (2006)</li>
+                    <li><strong>Current Studies:</strong> Ground-based telescopes, JWST</li>
+                    <li><strong>Future Missions:</strong> None so far</li>
+                </ul>
+                <div class="alert alert-dark mt-3">
+                    <i class="bi bi-info-circle"></i> Most dwarf planets are too distant for spacecraft visits.
+                    New Horizons' Pluto flyby in 2015 was a historic first!
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== COMPARISON WITH OTHER DWARF PLANETS ===== -->
+        <div class="card bg-space-black border-warning mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">📊 Among Dwarf Planets</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Dwarf Planet</th>
+                                <th>Size Rank</th>
+                                <th>Location</th>
+                                <th>Moons</th>
+                                <th>Discovered</th>
+                                <th>Distance from the Sun</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Pluto</strong></td>
+                                <td>#1 Largest</td>
+                                <td>Kuiper Belt</td>
+                                <td>5</td>
+                                <td>1930</td>
+                                <td>5.91x10<sup>9</sup>km<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Eris</strong></td>
+                                <td>#2</td>
+                                <td>Scattered Disc</td>
+                                <td>1</td>
+                                <td>2005</td>
+                                <td>1.01x10<sup>10</sup>km<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Haumea</strong></td>
+                                <td>#3</td>
+                                <td>Kuiper Belt</td>
+                                <td>2</td>
+                                <td>2004</td>
+                                <td>6.45x10<sup>9</sup>km<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Makemake</strong></td>
+                                <td>#4</td>
+                                <td>Kuiper Belt</td>
+                                <td>1</td>
+                                <td>2005</td>
+                                <td>6.85x10<sup>9</sup>km<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ceres</strong></td>
+                                <td>#5 Smallest</td>
+                                <td>Asteroid Belt</td>
+                                <td>0</td>
+                                <td>1801</td>
+                                <td>4.14x10<sup>6</sup>km<sup>2</sup></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== TRIVIA/QUIZ ===== -->
+        <div class="card bg-space-black border-secondary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🧠 Quick Quiz</h3>
+                <div class="quiz">
+                    <p><strong>Q:</strong> Why did Eris cause Pluto's "demotion"?</p>
+                    <button class="btn btn-outline-primary quiz-toggle">Reveal Answer</button>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> When discovered in 2005, Eris was more massive than Pluto — forcing astronomers to redefine what a "planet" is!</p>
+                    </div>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> Its event horizon is 3× larger than Pluto's entire orbit — a sphere 0.02 light-years across!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== RELATED CONTENT ===== -->
+        <div class="mt-5">
+            <h3 class="h4 mb-3">🔗 Explore Related Content</h3>
+            <div class="row">
+                <!-- Previous Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="dwarf-planet/pluto.html" 
+                       class="card bg-space-black border-warning text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-left fs-1 text-warning"></i>
+                            <p class="mb-0 mt-2">[Previous]</p>
+                        </div>
+                    </a>
+                </div>
+               
+                <!-- Next Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="dwarf-planet/haumea.html" 
+                       class="card bg-space-black border-warning text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-right fs-1 text-warning"></i>
+                            <p class="mb-0 mt-2">[Next]</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+     <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../script.js"></script>  
+</body>
+</html>

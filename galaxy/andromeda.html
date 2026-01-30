@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andromeda | To Infinity...</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="../planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="../planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="../planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="../planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="../planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="../planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="../moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="../moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="../moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="../moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="../moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News Feed</a>
+                    </li>
+                </ul>
+                
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <main class="container my-5">
+        
+        <!-- ===== PAGE HEADER ===== -->
+        <div class="row">
+            <div class="col-12">
+                <header class="text-center mb-5">
+                    <!-- SUN BADGE -->
+                    <h1 class="display-1 gradient-text">Andromeda Galaxy</h1>
+                    <span class="badge bg-info text-light mb-3 fs-6">Our Nearest Major Galaxy</span>
+                </header>
+            </div>
+        </div>
+        
+        <!-- ===== QUICK FACTS CARD ===== -->
+        <div class="card bg-space-black border-info mb-5"> <!-- Changed to light color -->
+            <div class="card-body">
+                <h2 class="card-title h3">🚀 Quick Facts</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Designation:</strong> M31, NGC 224</li>
+                            <li><strong>Type:</strong> Spiral (SA(s)b)</li>
+                            <li><strong>Morphology:</strong> Sb</li>
+                            <li><strong>Group/Cluster:</strong> Local Group, Laniakea Supercluster</li>
+                            <li><strong>Diameter:</strong> 152,000 ly (stellar disk) – 220,000 ly (halo)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Stellar Mass:</strong> 1.1 × 10¹² Solar Masses</li>
+                            <li><strong>Total Mass:</strong> 1.5 × 10¹² Solar Masses</li>
+                            <li><strong>Luminosity:</strong> 26 × 10⁹ Solar Luminosities</li>
+                            <li><strong>Star Count:</strong> ~1 trillion</li>
+                            <li><strong>Redshift (z):</strong> -0.001 (blueshift)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><strong>Distance from Earth:</strong> 2.537 million ly</li>
+                            <li><strong>Coordinates:</strong>RA 00h 42m 44s, Dec +41° 16′ 09″</li>
+                            <li><strong>Constellation:</strong> Andromeda</li>
+                            <li><strong>Apparent Size:</strong> 190′ × 60′ (6× full Moon length)</li>
+                            <li><strong>Location in Universe:</strong> Local Group center</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- ===== MAIN IMAGE ===== -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-space-black border-info"> <!-- Changed to light color -->
+                    <img src="../images/andromeda.jpeg" 
+                         class="img-fluid rounded planet-main-image" 
+                         alt="Andromeda Galaxy">
+                    <div class="card-body">
+                        <p class="card-text">A picture of The Andromeda Galaxy</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ===== KEY INFORMATION ===== -->
+            <div class="col-lg-4 mb-4">
+                <div class="card bg-space-black border-info h-100">
+                    <div class="card-body">
+                        <!-- NEW: Natural Satellite Definition -->
+                        <div class="mb-4">
+                            <h3 class="h5 text-info">What is a Galaxy?</h3>
+                            <p class="small">A galaxy is a massive system of stars, gas, dust, and dark matter bound together by gravity.</p>
+                        </div>
+                        
+                        <h3 class="card-title h4">📌 Did You Know?</h3>
+                        <ul>
+                            <li>Headed toward Milky Way at 110 km/s – collision in 4.5B years</li>
+                            <li>Contains ~460 globular clusters</li>
+                            <li>Has a double nucleus – possibly two SMBHs or dust lane illusion</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="h4">🔭 Observation and Discovery</h3>
+                        <ul>
+                            <li><strong>Apparent Magnitude:</strong> +3.44 (naked eye visible)</li>
+                            <li><strong>Discovery:</strong> First recorded in 964 CE by Persian astronomer Al-Sufi</li>
+                            <li><strong>Best Time to View:</strong> October–December</li>
+                            <li><strong>Viewing Difficulties:</strong> Faint extended glow needs dark skies</li>
+                            <li><strong>Notable Observations:</strong> Hubble identified Cepheids (1923), proving external galaxies</li>
+                        </ul>
+                        
+                        <hr class="border-secondary my-4">
+                        
+                        <h3 class="card-title h4">🔬 Scientific Data</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark">
+                                <tbody>
+                                    <tr><td><strong>Bulge/Bar:</strong> Large classical bulge, weak/absent bar</td></tr>
+                                    <tr><td><strong>Disk:</strong> Inclined 77° to our line of sight</td></tr>
+                                    <tr><td><strong>Halo:</strong> Extensive, metal-poor, many streams from cannibalized dwarfs</td></tr>
+                                    <tr><td><strong>Nucleus:</strong> P1/P2 double structure, SMBH ~100M solar masses</td></tr>
+                                    <tr><td><strong>Satellite Galaxies:</strong> Around 40 known</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== DETAILED SECTIONS ===== -->
+        <div class="row mt-4">
+            <!-- Section 1: Discovery & Classification -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-info h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">⭐Stellar Population & Content</h3>
+                        <ul>
+                            <li><strong>Star Formation Rate:</strong> 0.4 solar masses per year</li>
+                            <li><strong>Stellar Populations:</strong> Older average age than Milky Way</li>
+                            <li><strong>Interstellar Medium:</strong> Less gas than Milky Way, possibly "red and dead" phase</li>
+                            <li><strong>Notable Features:</strong> Giant Stellar Stream (tidal debris), satellite plane</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section 2: Physical Characteristics -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-info h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🌀 Dynamics & Future</h3>
+                        <ul>
+                            <li><strong>Rotation:</strong> 225 km/s at 38,000 ly radius</li>
+                            <li><strong>Interaction Status:</strong> Possibly merged with M32 with a future collision with Milky Way</li>
+                            <li><strong>Future Fate:</strong> Merge with Milky Way in ~4.5B years → "Milkomeda"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== EXPLORATION ===== -->
+        <div class="card bg-space-black border-info mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">⁉️ Big Questions & Oddities</h3>
+                <ul>
+                    <li><strong>Unique Features:</strong> Closest major galaxy, naked-eye visible</li>
+                    <li><strong>Scientific Importance:</strong> Proved galaxies exist beyond Milky Way</li>
+                    <li><strong>Mysteries:</strong> Why is star formation low despite gas? Double nucleus true nature?</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- ===== COMPARISON WITH OTHER MAJOR GALAXIES ===== -->
+        <div class="card bg-space-black border-info mt-4">
+            <div class="card-body"> 
+                <h3 class="card-title h4">📊 Among Major Galaxies</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Galaxy</th>
+                                <th>Total Mass</th>
+                                <th>Size Rank</th>
+                                <th>Diameter</th>
+                                <th>Special Feature</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Andromeda</th>
+                                <th>1.5x10<sup>12</sup> Solar Masses</th>
+                                <th>1st - Largest</th>
+                                <th>220,000 light years</th>
+                                <th>Naked-eye, double nucleus, future Milky Way collision</th>
+                            </tr>
+                            <tr>
+                                <th>Milky Way</th>
+                                <th>1.5x10<sup>12</sup> Solar Masses</th>
+                                <th>2nd</th>
+                                <th>105,000 light years</th>
+                                <th>Our home, barred spiral, Fermi Bubbles</th>
+                            </tr>
+                            <tr>
+                                <th>Whirlpool (M51)</th>
+                                <th>2.6x10<sup>11</sup> Solar Masses</th>
+                                <th>3rd</th>
+                                <th>76,000 light years</th>
+                                <th>Grand design spiral, interacting companion</th>
+                            </tr>
+                            <tr>
+                                <th>Triangulum</th>
+                                <th>5.0x10<sup>10</sup> Solar Masses</th>
+                                <th>4th</th>
+                                <th>60,000 light years</th>
+                                <th>Bulgeless spiral, NGC 604 giant HII region</th>
+                            </tr>
+                            <tr>
+                                <th>Sombrero</th>
+                                <th>1.0x10<sup>12</sup> Solar Masses</th>
+                                <th>5th</th>
+                                <th>49,000 light years</th>
+                                <th>Edge-on with dust lane, 2,000 globular clusters</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== TRIVIA/QUIZ ===== -->
+        <div class="card bg-space-black border-secondary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🧠 Quick Quiz</h3>
+                <div class="quiz">
+                    <p><strong>Q:</strong> How is Andromeda moving relative to the Milky Way?</p>
+                    <button class="btn btn-outline-primary quiz-toggle">Reveal Answer</button>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> It's actually approaching us at 110 km/s — we'll collide in about 4.5 billion years!</p>
+                    </div>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> It's actually approaching us at 110 km/s — we'll collide in about 4.5 billion years!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== RELATED CONTENT ===== -->
+        <div class="mt-5">
+            <h3 class="h4 mb-3">🔗 Explore Related Content</h3>
+            <div class="row">
+                <!-- Previous Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="galaxy/milky-way.html" 
+                       class="card bg-space-black border-info text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-left fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Previous]</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Next Dwarf Planet -->
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="galaxy/triangulum.html" 
+                       class="card bg-space-black border-info text-decoration-none h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-right fs-1 text-light"></i>
+                            <p class="mb-0 mt-2">[Next]</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+     <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../script.js"></script>  
+</body>
+</html>

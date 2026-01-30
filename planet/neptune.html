@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neptune | To Infinity... | Space Exploration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top border-bottom border-primary">
+        <div class="container">
+            <!-- Logo and Hamburger -->
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <span class="h2 mb-0 gradient-text">To Infinity...</span>
+            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <!-- Celestial Bodies Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Celestial Bodies
+                        </a>
+                        <ul class="dropdown-menu bg-dark-blue p-2">
+
+                            <!-- Planets -->
+                             <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-globe me-2"></i>Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="planet/mercury.html">Mercury</a></li>
+                                    <li><a class="dropdown-item" href="planet/venus.html">Venus</a></li>
+                                    <li><a class="dropdown-item" href="planet/earth.html">Earth</a></li>
+                                    <li><a class="dropdown-item" href="planet/mars.html">Mars</a></li>
+                                    <li><a class="dropdown-item" href="planet/jupiter.html">Jupiter</a></li>
+                                    <li><a class="dropdown-item" href="planet/saturn.html">Saturn</a></li>
+                                    <li><a class="dropdown-item" href="planet/uranus.html">Uranus</a></li>
+                                    <li><a class="dropdown-item" href="planet/neptune.html">Neptune</a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                                                       
+                            <!-- Dwarf Planets -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-moon-stars me-2"></i>Dwarf Planets
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../dwarf-planet/pluto.html">Pluto</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/eris.html">Eris</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/haumea.html">Haumea</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/makemake.html">Makemake</a></li>
+                                    <li><a class="dropdown-item" href="../dwarf-planet/ceres.html">Ceres</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            
+                            <!-- Moons -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle-half me-2"></i>Moons
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../moon/moon.html">Moon</a></li>
+                                    <li><a class="dropdown-item" href="../moon/europa.html">Europa</a></li>
+                                    <li><a class="dropdown-item" href="../moon/ganymede.html">Ganymede</a></li>
+                                    <li><a class="dropdown-item" href="../moon/callisto.html">Callisto</a></li>
+                                    <li><a class="dropdown-item" href="../moon/titan.html">Titan</a></li>
+                                    <li><a class="dropdown-item" href="../moon/io.html">Io</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Stars -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-star-fill me-2"></i>Stars
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../star/sun.html">Sun</a></li>
+                                    <li><a class="dropdown-item" href="../star/sirius.html">Sirius</a></li>
+                                    <li><a class="dropdown-item" href="../star/betelgeuse.html">Betelgeuse</a></li>
+                                    <li><a class="dropdown-item" href="../star/rigel.html">Rigel</a></li>
+                                    <li><a class="dropdown-item" href="../star/polestar.html">Polestar</a></li>
+                                    <li><a class="dropdown-item" href="../star/vega.html">Vega</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Galaxies -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-stars me-2"></i>Galaxies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../galaxy/milky-way.html">Milky Way</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/andromeda.html">Andromeda</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/triangulum.html">Triangulum</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/whirlpool.html">Whirlpool</a></li>
+                                    <li><a class="dropdown-item" href="../galaxy/sombrero.html">Sombrero</a></li>
+                                </ul>
+                                </div>
+                            </li>
+
+                            <!-- Black Holes -->
+                            <li>
+                                <div class="dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="bi bi-circle me-2"></i>Black Holes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../black-hole/sagittarius-a.html">Sagittarius A*</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/m87.html">M87</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/cygnus-x1.html">Cygnus X-1</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ton618.html">TON 618</a></li>
+                                    <li><a class="dropdown-item" href="../black-hole/ngc-1277.html">NGC 1277</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Other Pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../missions.html">Missions Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News Feed</a>
+                    </li>
+                </ul>
+                
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control bg-dark border-primary text-light" 
+                               type="search" 
+                               placeholder="Search celestial bodies...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+
+    <!-- Main Content -->
+
+    <main class="container my-5">
+            <div class="row">
+        <div class="col-12">
+            <header class="text-center mb-5">
+                <h1 class="display-1 gradient-text"> Neptune</h1>
+                <span class="badge bg-primary text-light mb-3 fs-6">The Blue Planet</span>
+            </header>
+        </div>
+    </div>               
+                <!-- ===== QUICK FACTS CARD ===== -->
+        <div class="card bg-space-black border-primary mb-5">
+            <div class="card-body">
+                <h2 class="card-title h3">🚀 Quick Facts</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Type:</strong> Gaseous Planet</li>
+                            <li><strong>Diameter:</strong> 49.244 km</li>
+                            <li><strong>Mass:</strong> 1.024 × 1026 kg</li>
+                            <li><strong>Orbit Period:</strong> 165 Earth years</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Day Length:</strong> 367.5 Earth days</li>
+                            <li><strong>Temperature:</strong> -214 °C avg</li>
+                            <li><strong>Moons:</strong> 16 known</li>
+                            <li><strong>Discoverer:</strong> Johann Gottfried Galle (1846)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- ===== MAIN IMAGE ===== -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-space-black border-primary">
+                <img src="../images/neptune.jpg" class="img-fluid rounded planet-main-image" alt="Neptune">                    
+                <div class="card-body">
+                        <p class="card-text-img">Photo of Neptune taken by NASA Voyager 2 in 1989</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ===== KEY INFORMATION ===== -->
+            <div class="col-lg-4 mb-4">
+                <div class="card bg-space-black border-primary h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">📌 Did You Know?</h3>
+                            <ul>
+                                <li>As Neptune is the furthest planet from the sun, it has the longest orbit at 165 Earth years</li>
+                                <li>Neptune is the windiest planet in our solar system</li>
+                                <li>It is smaller than Uranus, yet its mass is greater</li>
+                                <li>It's named after the Roman god of the sea</li>
+                            </ul>       
+                                        <hr class="border-secondary my-4">                 
+                        <h3 class="h4 mt-4">🔭 Observation Tips</h3>
+                        <ul>
+                            <li>Best time to view: Around its opposition, typically in September</li>
+                            <li>Visible to naked eye: No</li>
+                            <li>Brightness: 7.8 - 8.0 (too faint to see)</li>
+                        </ul>
+                                    <hr class="border-secondary my-4">
+                         <h3 class="card-title h4">🔬 Scientific Data</h3>        
+        <div class="table-responsive">
+            <table class="table table-sm table-dark">
+                <tbody>
+                    <tr>
+                        <td><strong>Escape Velocity</strong></td>
+                        <td>23.6 km/s</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Albedo</strong></td>
+                        <td>0.442</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Axial Tilt</strong></td>
+                        <td>28.32°</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Orbital Speed</strong></td>
+                        <td>5.46 km/s</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gravity</strong></td>
+                        <td>11.15 m/s²</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Magnetic Field</strong></td>
+                        <td>1,420nT (very weak)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== DETAILED SECTIONS ===== -->
+        <div class="row mt-4">
+            <!-- Section 1: Characteristics -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-primary h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🪐 Characteristics</h3>
+                        <p>Neptune is a large, icy planet with a very thick atmosphere and very cold surface due to its distance from the Sun.</p>
+                        <ul>
+                            <li><strong>Atmosphere:</strong> Very thick, composed mainly of hydrogen, helium, and traces of methane</li>
+                            <li><strong>Surface:</strong> Chaotic windy climate, potential diamond rains</li>
+                            <li><strong>Color:</strong> Blue due to its surface absorbing red light</li>
+                            <li><strong>Special Features:</strong> Strong winds, dark spots (like the Great Dark Spot), and a ring system</li>
+                            <li><strong>Moons:</strong> 16</li>
+                            <li><strong>Core Composition:</strong> small, solid, Earth-sized core composed of silicates and nickel-iron</li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section 2: Exploration -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-space-black border-primary h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h4">🛰️ Exploration</h3>
+                        <p>[Missions that visited this planet]</p>
+                        <ul>
+                            <li><strong>First Flyby:</strong> Voyager 2 (1989))</li>
+                            <li><strong>First Atmospheric Probe:</strong> None so far</li>
+                            <li><strong>Moon Studies:</strong> Magellan and VLT (2021 - 2023) have identified faint, irregular moons</li>
+                            <li><strong>Current Orbiters:</strong> None</li>
+                            <li><strong>Future Missions:</strong> Interstellar Express IHP-2 (planned for 2038 launch) and Neptune Odyssey (planned for 2031-2033 launch) plan to observe Neptune's moon, Triton</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== COMPARISON TABLE ===== -->
+        <div class="card bg-space-black border-primary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">📊 How Neptune Compares</h3>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Neptune</th>
+                                <th>Earth</th>
+                                <th>Comparison</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Size</td>
+                                <td>49,244 km</td>
+                                <td>12,742 km</td>
+                                <td>Around 2.5 times larger</td>
+                            </tr>
+                            <tr>
+                                <td>Gravity</td>
+                                <td>11.15 m/s²</td>
+                                <td>9.81 m/s²</td>
+                                <td>113.7% of Earth's</td>
+                            </tr>
+                            <tr>
+                                <td>Magnetic Field</td>
+                                <td>1,420 nT</td>
+                                <td>~50,000 nT</td>
+                                <td>Around 2.8% of Earth's</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ===== TRIVIA/QUIZ ===== -->
+        <div class="card bg-space-black border-secondary mt-4">
+            <div class="card-body">
+                <h3 class="card-title h4">🧠 Quick Quiz</h3>
+                <div class="quiz">
+                    <p><strong>Q:</strong> What record does Neptune hold in our solar system?</p>
+                    <button class="btn btn-outline-primary quiz-toggle">Reveal Answer</button>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                            <p class="mb-0"><strong>A:</strong> Fastest winds — hurricane-force gusts reach 2,100 km/h (1,300 mph), powered by internal heat despite being farthest from the Sun!</p>
+                    </div>
+                    <div class="answer-container mt-2 text-success" style="display:none;">
+                        <p class="mb-0"><strong>A:</strong> Oceans cover 71% of the surface — and our atmosphere scatters blue light more than other colors!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===== RELATED CONTENT ===== -->
+        <div class="mt-5">
+            <h3 class="h4 mb-3">🔗 Explore Related Content</h3>
+            <div class="row">
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="..planet/uranus.html" class="card bg-space-black border-primary text-decoration-none">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-left fs-1"></i>
+                            <p class="mb-0">&lt; Previous Planet</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <a href="../dwarf-planet/pluto.html" class="card bg-space-black border-primary text-decoration-none">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chevron-right fs-1"></i>
+                            <p class="mb-0">Next Dwarf Planet &gt;</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <!-- Footer -->
+    <footer class="page-down">
+        <div class="container">
+            <p class="footer">&copy; 2024 To Infinity... Space Exploration</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../script.js"></script>
+</body>
+</html>
